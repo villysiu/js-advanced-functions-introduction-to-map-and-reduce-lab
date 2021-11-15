@@ -18,3 +18,4 @@ let reduceToAllTrue = (sourceArray) =>{
 let reduceToAnyTrue = sourceArray => {
     return sourceArray.reduce((p,c) => !!c || !!p)
 }
+// test
